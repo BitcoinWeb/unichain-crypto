@@ -1,17 +1,17 @@
-# hypercore-crypto
+# unichain-crypto
 
-> :warning: Hypercore 9 uses v2 of this module while Hypercore 10 uses v3.
+> :warning: Unichain 9 uses v2 of this module while Unichain 10 uses v3.
 
-The crypto primitives used in hypercore, extracted into a separate module
+The crypto primitives used in unichain, extracted into a separate module
 
 ```
-npm install hypercore-crypto
+npm install unichain-crypto
 ```
 
 ## Usage
 
 ``` js
-const crypto = require('hypercore-crypto')
+const crypto = require('unichain-crypto')
 
 const keyPair = crypto.keyPair()
 console.log(keyPair) // prints a ed25519 keypair
