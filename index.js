@@ -7,7 +7,7 @@ const LEAF_TYPE = b4a.from([0])
 const PARENT_TYPE = b4a.from([1])
 const ROOT_TYPE = b4a.from([2])
 
-const HYPERCORE = b4a.from('hypercore')
+const UNICHAIN = b4a.from('unichain')
 
 exports.keyPair = function (seed) {
   const publicKey = b4a.allocUnsafe(sodium.crypto_sign_PUBLICKEYBYTES)
@@ -95,7 +95,7 @@ exports.randomBytes = function (n) {
 
 exports.discoveryKey = function (publicKey) {
   const digest = b4a.allocUnsafe(32)
-  sodium.crypto_generichash(digest, HYPERCORE, publicKey)
+  sodium.crypto_generichash(digest, UNICHAIN, publicKey)
   return digest
 }
 

@@ -1,7 +1,7 @@
 {
-  "name": "hypercore-crypto",
-  "version": "3.2.0",
-  "description": "The crypto primitives used in hypercore, extracted into a separate module",
+  "name": "@web4/bitweb-crypto",
+  "version": "2.0.0",
+  "description": "The crypto primitives used in unichain, extracted into a separate module",
   "main": "index.js",
   "dependencies": {
     "b4a": "^1.1.0",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/hypercore-crypto.git"
+    "url": "https://github.com/bitwebs/bitweb-crypto-crypto.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/hypercore-crypto/issues"
+    "url": "https://github.com/bitwebs/bitweb-crypto-crypto/issues"
   },
-  "homepage": "https://github.com/mafintosh/hypercore-crypto"
+  "homepage": "https://github.com/bitwebs/bitweb-crypto-crypto"
 }

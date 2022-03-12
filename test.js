@@ -66,7 +66,7 @@ test('tree', function (t) {
 })
 
 test('namespace', function (t) {
-  const ns = crypto.namespace('hyperswarm/secret-stream', 2)
+  const ns = crypto.namespace('bitswarm/secret-stream', 2)
 
   t.alike(ns[0], b4a.from('dfd8ffe2db54f9f4b2924d8b97db6e780778bc6bcecefba82b022dcf760820ab', 'hex'))
   t.alike(ns[1], b4a.from('883ccdc4fc8bac41f5a55328cae3007720e67df19f9384a85c9ffda07fa336b1', 'hex'))
